@@ -6,6 +6,9 @@ import inspect
 import re
 
 ###############################################################################
+An adaptation of aptitude to the gentoo portage package management sytem,
+based on ncurses.
+###############################################################################
 class Pkg:
   def __init__(self, name, inWorld):
     self.name    = name
